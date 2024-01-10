@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSDesignCode - Protfolio</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css'>
+
+    <!-- FontAwesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header shadow bg-warning">
+        <nav class="navbar navbar-expand-lg" id="navbar-example2">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                    <img src="assets/images/logo-2.png" alt="VSDesignCode Logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-pills mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn border-warning btn-2" type="button" data-bs-toggle="modal"
+                            data-bs-target="#Hire">Hire Me</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Hire" tabindex="-1" aria-labelledby="HireLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="h1 modal-title fs-5" id="HireLabel">Contact Us</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Send me a mail on <u><b>singh1616vikas@gmail.com</b></u>.</p>
+                    <p>See my work on given links below: </p>
+                    <div class="social-links text-center">
+                        <a href="https://github.com/singh1616vikas" class="btn btn-secondary"><i
+                                class="bi bi-github"></i> Github </a>
+                        <a href="https://www.behance.net/vikassingh2095" class="btn btn-secondary"><i
+                                class="bi bi-behance"></i> Behance</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-warning btn-1 text-white">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+
+        <!-- Home start here-->
+        <section class="home py-5" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 pt-5">
+                        <div class="home-content text-black">
+                            <div class="h6 fw-light">Hello, This is</div>
+                            <div class="display-2 fw-bold">Vikas Singh</div>
+                            <p class="text-3 flex-wrap">And I'm a <span class="display-6 auto-type"></span>
+                            </p>
+                            <a href="javascript:void(0)" class="btn border-warning btn-2" type="button"
+                                data-bs-toggle="modal" data-bs-target="#Hire">Hire
+                                me</a>
+                            <a href="assets/images/CV1.pdf" class="btn bg-warning btn-1 text-white ms-3" target="_blank"
+                                download>Download
+                                CV</a>
+
+                            <div class="social-links">
+                                <a href="https://github.com/singh1616vikas" class="btn btn-secondary"><i
+                                        class="bi bi-github"></i></a>
+                                <a href="https://www.linkedin.com/in/vikas-singh-5b6879289/"
+                                    class="btn btn-secondary"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.behance.net/vikassingh2095" class="btn btn-secondary"><i
+                                        class="bi bi-behance"></i></a>
+                                <a href="https://www.instagram.com/vikassingh_009/?igshid=MzMyNGUyNmU2YQ%3D%3D"
+                                    class="btn btn-secondary"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.facebook.com/smartstudytool?mibextid=kFxxJD"
+                                    class="btn btn-secondary"><i class="bi bi-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home end here-->
+
+        <!--  About start here -->
+        <section class="about py-5 mt-3" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="h1">About Me</p>
+                        <p>Here you will find more information about me, what I do, and my current<br>
+                            skills mostly in terms of programming and technology</p>
+                    </div>
+                </div>
+
+                <div class="row gap-3 gap-lg-0 pt-5 align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="image">
+                            <img src="assets/images/profile-img.png" alt="profile-img" class="img-fluid rounded-4">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <h4>Get to Know me!</h4>
+                        <p>As a passionate and creative student in Graphics Designing and
+                            Web Development, I am seeking a challenging position in a
+                            reputable organization to expand and utilize my skills and
+                            knowledge in design & programming. I am pursing from Arena
+                            Animation as a graphics, web design and development.</p>
+                        <p>I have completed 10+ projects (psd to html).</p>
+                        <div class="row">
+                            <div class="col-lg-2 col-3">
+                                <h6>Email :</h6>
+                            </div>
+                            <div class="col-lg-10 col-9">
+                                <p>singh1616vikas@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-3">
+                                <h6>Phone :</h6>
+                            </div>
+                            <div class="col-lg-10 col-9">
+                                <p>+91-7417686625</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-3">
+                                <h6>Address :</h6>
+                            </div>
+                            <div class="col-lg-10 col-9">
+                                <p>Hapur, Uttar Pradesh, 245101</p>
+                            </div>
+                        </div>
+                        <a href="assets/images/CV1.pdf" class="btn bg-warning text-white" download>Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  About end here -->
+
+        <!-- Services start here-->
+        <section class="services py-5 my-5" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h1 text-center">My Services</p>
+                    </div>
+                </div>
+
+                <div class="row gap-lg-0 gap-2 pt-5">
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="assets/images/icons/computer.png" class="w-25" alt="computer">
+                                <h5 class="card-title text-center">Graphics Designing</h5>
+                                <p class="card-text">Make a creativity design in which we focuse on typography, colors,
+                                    spacing and interface. Responsibility is to design Websites, Banners, Social Media,
+                                    etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="assets/images/icons/ui-design.png" class="w-25" alt="ui-design">
+                                <h5 class="card-title text-center">Web Designing</h5>
+                                <p class="card-text">Plan, create and code internet sites and web pages with modern and
+                                    artful designs. And It is usually refer to user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <img src="assets/images/icons/data.png" class="w-25" alt="data">
+                                <h5 class="card-title text-center">Web Developer</h5>
+                                <p class="card-text">Develop creative and responsive website layouts. In this we used
+                                    PHP,
+                                    and Wordpress.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services end here-->
+
+        <!-- Projects start here-->
+        <section class="projects py-5 mt-2 bg-warning" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h1 text-center">My Projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <ul class="nav nav-pills mb-2 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web"
+                            type="button" role="tab" aria-controls="pills-web" aria-selected="false">Website
+                            Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-graphics-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-graphics" type="button" role="tab" aria-controls="pills-graphics"
+                            aria-selected="false">Graphics</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-logo-tab" data-bs-toggle="pill" data-bs-target="#pills-logo"
+                            type="button" role="tab" aria-controls="pills-logo" aria-selected="false">Logo</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port1.png" class="card-img-top" alt="Burger House">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Burder House</h5>
+                                        <p class="card-text">I created by using HTML5, CSS3. Focused on custom
+                                            code helped familiar with code very deeply.</p>
+                                        <a href="https://singh1616vikas.github.io/Burger-House/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port2.png" class="card-img-top" alt="Kidszone-Kids school">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kidszone-Kids school</h5>
+                                        <p class="card-text">I have used Bootstrap 5 for this project. I have creating
+                                            user-friendly and responsive web design.</p>
+                                        <a href="https://singh1616vikas.github.io/kidszone/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port3.png" class="card-img-top"
+                                        alt="Volti-electric vechile">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Volti-electric vechile</h5>
+                                        <p class="card-text">Used HTML5, CSS3, JavaScript. Created responsive design run
+                                            on
+                                            Desktop, Mobile, Tablet.</p>
+                                        <a href="https://singh1616vikas.github.io/Volti-book-your-eco-friendly-ride.in/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port4.png" class="card-img-top"
+                                        alt="Wimbledon-Championships">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wimbledon-Championships</h5>
+                                        <p class="card-text">I have used Bootstrap 5 for this project. I have creating
+                                            user-friendly and responsive web design.</p>
+                                        <a href="https://singh1616vikas.github.io/Wimbledon-Championships.github.io/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card">
+                                    <a href="https://www.behance.net/vikassingh2095">
+                                        <img src="assets/images/graphics/SMP/medical 2.jpg"
+                                            class="card-img-top img-fluid" alt="Social Media Post">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="https://www.behance.net/vikassingh2095">
+                                        <img src="assets/images/graphics/SMP/Logitics .jpg"
+                                            class="card-img-top img-fluid" alt="Social Media Post">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row flex-column">
+                                    <div class="col">
+                                        <a href="https://www.behance.net/vikassingh2095">
+                                            <img src="assets/images/graphics/moviePoster/buring-train-movie.jpg"
+                                                class="card-img-top" alt="Movie Poster">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://www.behance.net/vikassingh2095">
+                                            <img src="assets/images/graphics/moviePoster/Satyamev  Jayate.jpg"
+                                                class="card-img-top" alt="Movie Poster">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row flex-column">
+                                    <div class="col">
+                                        <a href="https://www.behance.net/vikassingh2095">
+                                            <img src="assets/images/graphics/B&W-to-color/Boy-B&W-color.jpg"
+                                                class="card-img-top" alt="black-white to color">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://www.behance.net/vikassingh2095">
+                                            <img src="assets/images/graphics/B&W-to-color/girl_b&W_color.jpg"
+                                                class="card-img-top" alt="Social Media Post">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="https://www.behance.net/vikassingh2095">
+                                        <img src="assets/images/graphics/Magazine-cover/football-magazine.jpg"
+                                            class="card-img-top" alt="Magazine-cover">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Website design work-->
+                    <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab"
+                        tabindex="0">
+                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port1.png" class="card-img-top" alt="Burger House">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Burder House</h5>
+                                        <p class="card-text">I created by using HTML5, CSS3. Focused on custom
+                                            code helped familiar with code very deeply.</p>
+                                        <a href="https://singh1616vikas.github.io/Burger-House/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port2.png" class="card-img-top" alt="Kidszone-Kids school">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kidszone-Kids school</h5>
+                                        <p class="card-text">I have used Bootstrap 5 for this project. I have creating
+                                            user-friendly and responsive web design.</p>
+                                        <a href="https://singh1616vikas.github.io/kidszone/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port3.png" class="card-img-top"
+                                        alt="Volti-electric vechile">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Volti-electric vechile</h5>
+                                        <p class="card-text">Used HTML5, CSS3, JavaScript. Created responsive design run
+                                            on
+                                            Desktop, Mobile, Tablet.</p>
+                                        <a href="https://singh1616vikas.github.io/Volti-book-your-eco-friendly-ride.in/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="assets/images/port4.png" class="card-img-top"
+                                        alt="Wimbledon-Championships">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wimbledon-Championships</h5>
+                                        <p class="card-text">I have used Bootstrap 5 for this project. I have creating
+                                            user-friendly and responsive web design.</p>
+                                        <a href="https://singh1616vikas.github.io/Wimbledon-Championships.github.io/"
+                                            class="btn bg-warning btn-1 text-white">Github</a>
+                                        <a href="https://github.com/singh1616vikas"
+                                            class="btn border-warning btn-2 float-end">Portfolio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Graphics work -->
+                    <div class="tab-pane fade" id="pills-graphics" role="tabpanel" aria-labelledby="pills-graphics-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-center my-2">Here you can see such as social media post, movie poster,
+                                    mangazine cover,
+                                    black&White to
+                                    Color
+                                    designs.</p>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                            <div class="col">
+                                <img src="assets/images/graphics/B&W-to-color/Boy-B&W-color.jpg" class="card-img-top"
+                                    alt="B&W-to-color">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/B&W-to-color/girl_b&W_color.jpg" class="card-img-top"
+                                    alt="B&W-to-color">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/moviePoster/buring-train-movie.jpg"
+                                    class="card-img-top" alt="moviePoster">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/moviePoster/Satyamev  Jayate.jpg" class="card-img-top"
+                                    alt="moviePoster">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/moviePoster/maniplution-chai.png" class="card-img-top"
+                                    alt="image-manipulation">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/moviePoster/image-manipulation.png"
+                                    class="card-img-top" alt="image-manipulation">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/Logitics .jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/medical 2.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/S gravity smp.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/shoes smp1.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/solar copy.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/medical.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/SMP 4 copy.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/food.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/1.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/2.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/3.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/SMP/chefmockup.jpg" class="card-img-top"
+                                    alt="Social Media Post">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Magazine-cover/football-magazine.jpg"
+                                    class="card-img-top" alt="Magazine-cover">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Magazine-cover/magazine 2 copy.jpg"
+                                    class="card-img-top" alt="Magazine-cover">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Magazine-cover/magazine_fashion.jpg"
+                                    class="card-img-top" alt="Magazine-cover">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/UI design/gym.jpg" class="card-img-top"
+                                    alt="UI design">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/UI design/subway-mockup.jpg" class="card-img-top"
+                                    alt="UI design">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/Black And Blue Simple Travel Banner.png"
+                                    class="card-img-top" alt="Web Ads & Banner">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/eaglefashion.jpg" class="card-img-top"
+                                    alt="Web Ads & Banner">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/travel1.jpg" class="card-img-top"
+                                    alt="Web Ads & Banner">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/mr.singh.jpg" class="card-img-top"
+                                    alt="Web Ads & Banner">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/halfpage 1 copy.jpg" class="card-img-top"
+                                    alt="Web Ads & Banner">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/medium banner copy.jpg" class="card-img-top"
+                                    alt="Web Ads & Banner">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Web-ads/halfpage.jpg" class="card-img-top"
+                                    alt="Web Ads & Banner">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Logo & Branding work -->
+                    <div class="tab-pane fade" id="pills-logo" role="tabpanel" aria-labelledby="pills-logo-tab"
+                        tabindex="0">
+                        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/gravity-logo.png" class="card-img-top"
+                                    alt="gravity-logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/bruno-auto.png" class="card-img-top"
+                                    alt="bruno-auto Logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/chai da chaska.png" class="card-img-top"
+                                    alt="chai da chaska Logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/shivalay-hospital.png" class="card-img-top"
+                                    alt="shivalay-hospital Logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/designer.png" class="card-img-top"
+                                    alt="designer Logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/PadelLoft_logo.png" class="card-img-top"
+                                    alt="PadelLoft_logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/hextrem.png" class="card-img-top"
+                                    alt="hextrem Logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/Infinity_logo.png" class="card-img-top"
+                                    alt="Infinity_logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/Robin_Kobra.jpg" class="card-img-top"
+                                    alt="Robin_Kobra Logo">
+                            </div>
+
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/umumma.png" class="card-img-top"
+                                    alt="umumma Logo">
+                            </div>
+                            <div class="col">
+                                <div class="row flex-column">
+                                    <div class="col">
+                                        <img src="assets/images/graphics/Logo/logo-png.png" class="card-img-top"
+                                            alt="logo">
+                                    </div>
+                                    <div class="col">
+                                        <img src="assets/images/graphics/Logo/dangler.png" class="card-img-top"
+                                            alt="dangler">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/Tea-Logo copy.png" class="card-img-top"
+                                    alt="Tea-Logo">
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/graphics/Logo/Logos_Design.jpg" class="card-img-top" alt="Logo">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="assets/images/graphics/Logo/mockup letterhead envelope.jpg"
+                                    class="card-img-top" alt="mockup letterhead envelope">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="assets/images/graphics/Logo/mockups.png" class="card-img-top"
+                                    alt="mockup letterhead envelope">
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="assets/images/graphics/Logo/branding hospitals.png" class="card-img-top"
+                                    alt="branding hospitals">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Projects start here-->
+
+        <!-- Resume start here -->
+        <section class="resume py-5 mt-2" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="h1 text-center">My Resume</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <ul class="nav nav-pills mb-2 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-education-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                            aria-selected="true">Education</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-skills-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills"
+                            aria-selected="false">Skills</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-education" role="tabpanel"
+                        aria-labelledby="pills-education-tab" tabindex="0">
+
+                        <div class="row row-cols-1 row-cols-md-2 g-4 pt-5">
+                            <div class="col">
+                                <div class="card bg-warning-subtle border-warning">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Graphics, Web Design and Development</h4>
+                                        <h6 class="card-title">ARENA ANIMATION</h6>
+                                        <p class="card-text">Preet Vihar</p>
+                                        <p class="card-text small">2022 - 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-warning-subtle border-warning">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bachelor's of Arts</h4>
+                                        <h6 class="card-title">CCS University</h6>
+                                        <p class="card-text">Meerut</p>
+                                        <p class="card-text small">2021 - 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-warning-subtle border-warning">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Diploma in Mechanical Engineering</h4>
+                                        <h6 class="card-title">D.N. Polytechnic</h6>
+                                        <p class="card-text">Meerut</p>
+                                        <p class="card-text small">2017 - 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-warning-subtle border-warning">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Intermedaite</h4>
+                                        <h6 class="card-title">CBSE Board</h6>
+                                        <p class="card-text">Hapur</p>
+                                        <p class="card-text small">2016</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-warning-subtle border-warning">
+                                    <div class="card-body">
+                                        <h4 class="card-title">High School</h4>
+                                        <h6 class="card-title">CBSE Board</h6>
+                                        <p class="card-text">Hapur</p>
+                                        <p class="card-text small">2014</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col position-relative">
+                                <a href="assets/images/CV1.pdf" class="btn bg-warning btn-1 text-white ms-3 download"
+                                    download>Download
+                                    CV</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills work -->
+                    <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab"
+                        tabindex="0">
+                        <div class="row pt-5">
+                            <div class="col-lg-3 col-12">
+                                <p class="h2">Software skills</p>
+                                <ul>
+                                    <li>Adobe Photoshop</li>
+                                    <li>Adobe Illustrator</li>
+                                    <li>Corel Draw</li>
+                                    <li>Adobe Animate CC</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <p class="h2">Frontend skills</p>
+                                <ul>
+                                    <li>HTML5 & CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>Bootstrap</li>
+                                    <li>React Js</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <p class="h2">Backend skills</p>
+                                <ul>
+                                    <li>PHP & MySQL</li>
+                                    <li>Nodejs</li>
+                                    <li>WordPress</li>
+                                    <li>Basic of SEO</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <p class="h2">Soft skills</p>
+                                <ul>
+                                    <li>Problem Solving</li>
+                                    <li>Positive Attitude</li>
+                                    <li>Time Management</li>
+                                    <li>Team Work</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Resume end here -->
+
+        <!-- Contact start here -->
+        <section class="contact py-5 bg-warning-subtle" id="contact"
+            style="background-image:url(assets/images/map.svg); background-position: center left; background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-6 text-center mx-auto">
+                        <!-- Title -->
+                        <h6 class="text-primary">Contact us</h6>
+                        <p class="h1 mb-4">We're here to help!</p>
+                    </div>
+                </div>
+
+                <div class="row g-4 g-lg-0 align-items-center">
+
+                    <div class="col-md-6 align-items-center text-center">
+                        <!-- Image -->
+                        <img src="assets/images/contact.svg" class="h-400px" alt="Contact">
+
+                        <!-- Social media button -->
+                        <div class="d-sm-flex align-items-center justify-content-center mt-2 mt-sm-4">
+                            <h5 class="mb-0">Follow us on:</h5>
+                            <ul class="list-inline mb-0 ms-sm-2">
+                                <li class="list-inline-item"> <a class="fs-5 me-1 text-facebook"
+                                        href="https://www.facebook.com/profile.php?id=100009082637796&mibextid=ZbWKwL"><i
+                                            class="fab fa-fw fa-facebook-square" target="_blank"></i></a>
+                                </li>
+                                <li class="list-inline-item"> <a class="fs-5 me-1 text-instagram"
+                                        href="https://www.instagram.com/vikassingh_009?igsh=MzMweHhrenR6NWps"><i
+                                            class="fab fa-fw fa-instagram" target="_blank"></i></a>
+                                </li>
+                                <li class="list-inline-item"> <a class="fs-5 me-1 text-twitter"
+                                        href="https://x.com/vikas_jaat06?t=67LMKxt9AlkV-_-V6yAb-w&s=09"><i
+                                            class="fab fa-fw fa-twitter" target="_blank"></i></a>
+                                </li>
+                                <li class="list-inline-item"> <a class="fs-5 me-1 text-linkedin"
+                                        href="https://www.linkedin.com/in/vikas-singh-5b6879289/"><i
+                                            class="fab fa-fw fa-linkedin-in" target="_blank"></i></a>
+                                </li>
+                                <li class="list-inline-item"> <a class="fs-5 me-1 text-dribbble"
+                                        href="https://dribbble.com/vsdesigncode" target="_blank"><i
+                                            class="fas fa-fw fa-basketball-ball"></i></a>
+                                </li>
+                                <li class="list-inline-item"> <a class="fs-5 me-1 text-pinterest"
+                                        href="https://pin.it/5iwE9cXA2" target="_blank"><i
+                                            class="fab fa-fw fa-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact form START -->
+                    <div class="col-md-6">
+                        <!-- Title -->
+                        <h2 class="mt-4 mt-md-0">Let's talk</h2>
+                        <p>To request a quote or want to meet up for coffee, contact us directly or fill out the form
+                            and we will get back to you promptly</p>
+
+                        <form>
+                            <!-- Name -->
+                            <div class="mb-4 bg-light-input">
+                                <label for="yourName" class="form-label">Your name *</label>
+                                <input type="text" class="form-control form-control-lg" id="yourName">
+                            </div>
+                            <!-- Name -->
+                            <div class="mb-4 bg-light-input">
+                                <label for="yourName" class="form-label">Phone *</label>
+                                <input type="text" class="form-control form-control-lg" id="phone">
+                            </div>
+                            <!-- Email -->
+                            <div class="mb-4 bg-light-input">
+                                <label for="emailInput" class="form-label">Email address *</label>
+                                <input type="email" class="form-control form-control-lg" id="emailInput">
+                            </div>
+                            <!-- Message -->
+                            <div class="mb-4 bg-light-input">
+                                <label for="textareaBox" class="form-label">Message *</label>
+                                <textarea class="form-control" id="textareaBox" rows="4"></textarea>
+                            </div>
+                            <!-- Button -->
+                            <div class="d-grid">
+                                <button class="btn btn-lg bg-warning btn-1 text-white mb-0" type="button">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Contact form END -->
+                </div>
+        </section>
+        <!-- Contact end here -->
+
+        <!-- footer start here -->
+        <footer class="py-5 text-white bg-dark">
+            <div class="container">
+                <div class="row text-start gap-lg-0 gap-3">
+                    <div class="col-lg-5 col-12">
+                        <!-- <h4 class="mb-4">VSDesignCode</h4> -->
+                        <a href="#home"><img src="assets/images/footer_logo.png" alt="Footer logo" class="mb-4"></a>
+                        <p class=" mb-4 pb-2">Please, subscribe to our newsletter to keep updated about our
+                            news and offers.Please, subscribe to our newsletter to keep updated about our
+                            news and offers.</p>
+                        <form class="needs-validation" novalidate="">
+                            <div class="input-group">
+                                <input type="email" id="subscr-email" class="form-control rounded-start ps-5"
+                                    placeholder="Your email" required>
+                                <i
+                                    class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
+                                <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid
+                                    email address.</div>
+                                <button type="submit" class="btn bg-warning text-white">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <h4>About Us</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#home" class="nav-link text-white p-0">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#about" class="nav-link text-white p-0">About Us</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#contact" class="nav-link text-white p-0">Contact Us</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#resume" class="nav-link text-white p-0">Resume</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#services" class="nav-link text-white p-0">Services</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#projects" class="nav-link text-white p-0">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <h4>Social Links</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://www.linkedin.com/in/vikas-singh-5b6879289/"
+                                    class="nav-link text-white p-0" target="_blank">LinkedIn</a></li>
+                            <li class="nav-item mb-2"><a href="https://www.behance.net/vikassingh2095"
+                                    class="nav-link text-white p-0" target="_blank">Behance</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="https://github.com/singh1616vikas"
+                                    class="nav-link text-white p-0" target="_blank">Github</a>
+                            </li>
+                            <li class="nav-item mb-2"><a
+                                    href="https://www.instagram.com/vikassingh_009/?igshid=MzMyNGUyNmU2YQ%3D%3D"
+                                    class="nav-link text-white p-0" target="_blank">Instagram</a></li>
+                            <li class="nav-item mb-2"><a
+                                    href="https://www.facebook.com/profile.php?id=100009082637796&mibextid=ZbWKwL"
+                                    class="nav-link text-white p-0" target="_blank">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <h4>Our office</h4>
+                        <ul class="nav flex-column mb-0">
+                            <li class="mb-1">
+                                <a href="https://maps.app.goo.gl/F7sHtBT4vQL8KMAV8" target="_blank"
+                                    class="nav-link align-items-start text-white fw-normal px-0 py-1">
+                                    <i class="fas fa-map-marker-alt fs-5 text-warning me-2"></i>
+                                    Vill. & Post- Upeda, Distt.- Hapur, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uttar Pradesh
+                                    245101
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="tel:7417686625"
+                                    class="nav-link align-items-start text-white fw-normal px-0 py-1">
+                                    <i class="fas fa-phone-alt fs-5 text-warning me-2"></i>
+                                    +91- 7417686625
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:singh1616vikas@gmail.com" target="_self"
+                                    class="nav-link align-items-start text-white fw-normal px-0 py-1">
+                                    <i class="fas fa-envelope fs-5 text-warning me-2"></i>
+                                    singh1616vikas@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-12 text-center">
+                        <hr>
+                        <span>
+                            <a href="https://github.com/singh1616vikas" class="text-warning"> Vikas Singh</a> |
+                            <span class="far fa-copyright"></span>opyright 2023 - 24. All Rights Reserved. Visit <em
+                                class="text-warning">VSDesignCode</em>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- arrow key -->
+    <a href="#" class="arrow">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+
+    <!-- Bootstrap JS link -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- type js link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Custom JS link -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
